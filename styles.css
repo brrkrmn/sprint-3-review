@@ -1,0 +1,63 @@
+.image {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.image:hover {
+    transition-duration: 250ms;
+    scale: 1.05;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.recipe-content {
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 42px;
+}
+
+
+li:hover {
+    color: rgb(122, 29, 29);
+    transition-duration: 250ms;
+    translate: 60px;
+    scale: 1.2;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid rgba(27, 77, 27, 0.827);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0px 14px;
+    background: rgba(25, 74, 25, 0.347);
+}
+
+/* ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+
+.sushi-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.sushi-image:hover {
+    transition-duration: 300ms;
+    scale: 1.1;
+    rotate: 30deg;
+}
